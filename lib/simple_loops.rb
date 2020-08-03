@@ -15,6 +15,12 @@ def loop_message_n_times(message, n)
   puts message
   i+=1 
 end
+i=0 
+while i<10 
+message="Hello Red Balloon."
+puts message
+i+=1 
+end
 end
 
 def output_array
