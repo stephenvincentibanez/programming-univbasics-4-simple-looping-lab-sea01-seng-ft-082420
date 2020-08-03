@@ -38,6 +38,6 @@ def return_string_array(array)
   while i<array.length do
     puts array[i]
     i += 1 
-    return array.to_string
+    return array.to_string.to_s
   end
 end
