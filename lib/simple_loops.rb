@@ -32,5 +32,6 @@ def output_array(array)
   end
 end
 
-def return_string_array
+def return_string_array(array)
+  
 end
