@@ -9,8 +9,12 @@ end
 end
 
 def loop_message_n_times(message, n)
+  i=0 
+  while i<5
   message="Hello Moon."
-  10.times puts message
+  puts message
+  i+=1 
+end
 end
 
 def output_array
