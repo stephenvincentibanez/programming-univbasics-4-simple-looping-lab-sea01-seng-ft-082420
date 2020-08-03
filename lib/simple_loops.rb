@@ -8,19 +8,12 @@ def loop_message_five_times(message)
 end
 end
 
-def loop_message_n_times(message, n)
-  i=0 
-  while i<n
-  message="Hello Moon."
-  puts message
-  i+=1 
-end
-i=0 
-while i<10 
-message="Hello Red Balloon."
-puts message
-i+=1 
-end
+def loop_message_n_times(message, limit)
+  count = 0
+  while count < limit do
+    puts message
+    count += 1
+  end
 end
 
 def output_array(array)
