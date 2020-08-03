@@ -10,7 +10,7 @@ end
 
 def loop_message_n_times(message, n)
   i=0 
-  while i < n
+  while i < 5
   message="Hello Red Balloon."
   puts message
   i+=1
