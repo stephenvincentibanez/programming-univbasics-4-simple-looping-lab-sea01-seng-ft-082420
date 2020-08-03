@@ -26,7 +26,8 @@ end
 def output_array(array)
   i=0 
   
-  while 
+  while i<array.length do
+    
   
 end
 
