@@ -24,6 +24,9 @@ end
 end
 
 def output_array(array)
+  i=0 
+  
+  while 
   
 end
 
