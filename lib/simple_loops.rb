@@ -1,11 +1,11 @@
 # Write your methods here
 def loop_message_five_times(message)
-  counter=0 
+  i=0 
   message="Hello World"
   
-  while counter < 5
-  puts message[counter]
-  counter+=1 
+  while i < 5
+  puts message[i]
+  i+=1 
 end
 end
 
